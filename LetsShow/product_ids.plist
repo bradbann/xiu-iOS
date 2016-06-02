@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>com.17xiu.pineapple12</string>
+	<string>com.17xiu.pineapple30</string>
+	<string>com.17xiu.pineapple50</string>
+	<string>com.17xiu.pineapple98</string>
+	<string>com.17xiu.pineapple198</string>
+	<string>com.17xiu.pineapple588</string>
+	<string>com.17xiu.pineapple998</string>
+    <string>com.17xiu.pineapple1998</string>
+</array>
+</plist>

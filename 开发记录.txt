@@ -1,0 +1,5 @@
+1. App内购,获取列表为空,可能是没有填写税务信息.
+
+2. 收到SKPaymentTransactionStatePurchased状态时,务必调用[[SKPaymentQueue defaultQueue] finishTransaction:transaction],否则系统会反复触发SKPaymentTransactionStatePurchased状态
+
+3.

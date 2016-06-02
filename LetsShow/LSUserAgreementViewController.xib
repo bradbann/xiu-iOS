@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LSUserAgreementViewController">
+            <connections>
+                <outlet property="contentTextView" destination="9ct-Hh-Tml" id="bYv-aV-3ql"/>
+                <outlet property="view" destination="iN0-l3-epB" id="kAU-71-ll6"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="17秀" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="9ct-Hh-Tml">
+                    <rect key="frame" x="0.0" y="65" width="600" height="535"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="9ct-Hh-Tml" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="65" id="Hrp-26-HHl"/>
+                <constraint firstAttribute="trailing" secondItem="9ct-Hh-Tml" secondAttribute="trailing" id="eNl-D4-gFZ"/>
+                <constraint firstAttribute="bottom" secondItem="9ct-Hh-Tml" secondAttribute="bottom" id="lu0-hf-mOT"/>
+                <constraint firstItem="9ct-Hh-Tml" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="ntk-o4-iBK"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+            <point key="canvasLocation" x="211" y="368"/>
+        </view>
+    </objects>
+</document>
